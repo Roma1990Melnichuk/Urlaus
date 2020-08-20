@@ -1,0 +1,2 @@
+<svg  xmlns="http://www.w3.org/2000/svg"
+	  xml:space="preserve" preserveAspectRatio="none"><defs><filter id="a"><feGaussianBlur stdDeviation=".1" in="SourceGraphic"/></filter></defs><path fill="none" d="M-1-1h582v402H-1z"/><g><g stroke="null" fill="#696969"><path filter="url(#a)" d="M33.0874 29.7L32.8 28.3 35.3252 16 32.8 3.7l.2874-1.4L35.9 16z"/><path d="M19.0477 29.7L20.8 28.3 5.4046 16 20.8 3.7l-1.7523-1.4L1.9 16z"/></g></g></svg>

@@ -1,0 +1,334 @@
+@media screen and (min-width: 768px) {
+	.page__section {
+		margin-top: 105px;
+	}
+	h1 {
+		font-size: 52px;
+	}
+	.header {
+		padding-top: 40px;
+		padding-bottom: 235px;
+	}
+	.header__list {
+		padding-top: 0;
+	}
+	.header__logo {
+		padding-top: 0;
+		order: -1;
+		margin: 0;
+	}
+	.header__menu-logo {
+		display: flex;
+		justify-content: space-between;
+		/*padding: 35px 45px 0 45px ;*/
+		align-items: baseline;
+		margin: 0 0 0 40px;
+	}
+	.header__tittle {
+		margin-top: 155px;
+		text-align: center;
+		letter-spacing: 1px;
+		padding: 0 45px;
+	}
+	.header__subtittle {
+		margin-top: 45px;
+	}
+	.header__text {
+		font-size: 24px;
+	}
+	.header__btn {
+		margin-top: 40px;
+	}
+	.main {
+		margin-bottom: 100px;
+	}
+	.slyder {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.slyder__col {
+		width: 33%;
+		margin-top: 0;
+	}
+	.slick-arrow {
+		top: 30%;
+	}
+	.slick-arrow:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		transform: translate(-30%, -70%);
+	}
+	.slyder__img {
+		margin: 0 auto;
+		width: 100%;
+		height: 400px;
+	}
+	.slyder__tittle {
+		margin-top: 210px;
+	}
+	.slyder__tittle--mrgn {
+		margin-top: 250px;
+	}
+	.slyder__subtittle {
+		letter-spacing: 0;
+	}
+	.slyder__section {
+		width: 240px;
+	}
+	.slyder__text {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.slyder__text--mgn {
+		margin-top: 18px;
+	}
+	.slyder__prev,
+	.slyder__next {
+		position: absolute;
+		top: 185px;
+		/*не нравится, что не %*/
+		z-index: 1;
+	}
+	.partners {
+		margin-top: 40px;
+	}
+	.partners__gride {
+		margin-top: 35px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.partners__col:first-child {
+		/*padding-top: 35px;*/
+		order: -2;
+		margin-top: 0;
+	}
+	.partners__col:nth-child(2) {
+		margin-top: 60px;
+		order: 0
+	}
+	.partners__col:nth-child(3) {
+		order: -1;
+		/*padding-top: 35px;*/
+	}
+	.partners__col:nth-child(4) {
+		order: -1;
+		margin-top: 60px;
+		/*padding-top: 35px;*/
+	}
+	.partners__col {
+		/*padding-top: 60px;*/
+		width: 50%;
+		padding: 0 4px;
+		margin-top: 0;
+	}
+	.partners__likes {
+		padding: 0 75px;
+	}
+	.caption {
+		/*padding-top: 0;
+	padding-bottom: 40px;*/
+		text-align: center;
+	}
+	.caption__text:first-child {
+		font-size: 22px;
+		color: #333333;
+		font-family: 'Montserrat-Bold', sans-serif;
+		font-weight: 700;
+	}
+	.search__title {
+		text-align: center;
+		margin-top: 45px;
+	}
+	.search__form {
+		/*padding-top: 45px;*/
+		margin-top: 45px;
+	}
+	.search {
+		margin: 0;
+		/*padding-bottom: 100px;*/
+	}
+	.search__col {
+		max-width: 239px;
+		width: 33.3%;
+	}
+	
+	.search__col:nth-child(6) {
+		max-width: 490px;
+		width: 66%;
+	}
+	
+	.search__col:nth-child(5) {
+		max-width: 490px;
+		width: 66%;
+	}
+	
+	.search__img {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	.search__url {
+		width: 30%;
+		height: 310px;
+	}
+	.search__input {
+		height: 48px;
+		width: 31%;
+		margin-right: 10px;
+	}
+	.search__form {
+		display: flex;
+		justify-content: center;
+	}
+	.search__btn {
+		margin-top: 0;
+	}
+	.search__button {
+		padding: 15px 30px;
+	}
+	.footer__gride {
+		display: flex;
+		justify-content: space-around;
+		/*padding-top: 40px;
+	padding-bottom: 40px;*/
+	}
+	.footer__logo {
+		padding-top: 0;
+	}
+	.footer__item {
+		margin: 0;
+		margin-top: 20px;
+		display: block;
+	}
+	.footer__item li {
+		margin-top: 15px;
+	}
+	/*.footer__link {
+	margin-top: 15px;
+}  не пашет*/
+	.footer__head {
+		margin-top: 0;
+	}
+	.footer__pic-slogan {
+		padding-top: 0;
+	}
+	.footer__menu {
+		padding-top: 0;
+	}
+	.footer__pic-slogan {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.center {
+		margin: 0 240px;
+	}
+	.header__logo-link {
+		font-size: 20px;
+	}
+	.main__title {
+		padding: 105px 0 40px;
+	}
+	.slyder {
+		justify-content: center;
+	}
+	.slyder__section {
+		width: 300px;
+	}
+	.slyder__tittle {
+		margin-top: 230px;
+	}
+	.slyder__tittle--mrgn {
+		margin-top: 250px;
+	}
+	.slyder__subtittle {
+		letter-spacing: 0;
+		font-size: 24px;
+		color: #ffffff;
+		font-family: "Montserrat";
+		font-weight: 700;
+	}
+	.slyder__text {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.slyder__text--mgn {
+		margin-top: 18px;
+	}
+	.partners__slogan {
+		padding-top: 100px;
+	}
+	.partners__col {
+		padding-top: 0;
+		margin-top: 0;
+		width: 24%;
+	}
+	.partners__col:nth-child(3) {
+		order: -1;
+		padding-top: 0;
+	}
+	.partners__col:first-child {
+		padding-top: 0;
+		order: -2;
+	}
+	.partners__gride {
+		padding-top: 40px;
+	}
+	.partners__btn {
+		padding-top: 40px;
+	}
+	.partners__col:nth-child(2) {
+		margin-top: 0;
+		order: 0
+	}
+	.partners__col:last-child {
+		margin-top: 0;
+		order: 0
+	}
+	.partners__likes {
+		padding: 0 35px;
+	}
+	.search {
+		margin: 0 250px;
+		padding: 0 10px;
+	}
+	.search__col {
+		max-width: 300px;
+		width: 32%;
+	}
+	.search__url {
+		max-width: 300px;
+		width: 32%;
+	}
+	.search__col:nth-child(6) {
+		max-width: 620px;
+		width: 65%;
+	}
+	.search__url:nth-child(6) {
+		max-width: 620px;
+		width: 65%;
+	}
+	.search__col:nth-child(5) {
+		max-width: 620px;
+		width: 65%;
+	}
+	.search__url:nth-child(5) {
+		max-width: 620px;
+		width: 65%;
+	}
+	.search__input {
+		width: 22%;
+		height: 50px;
+		margin-bottom: 0;
+	}
+	.search__img {
+		max-width: 940px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+
+
+}
+hr {
+    color:red;
+    background-color:red;
+    border:0px none;
+    height: 2px;
+
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+      position: relative;
+}
+
+.wrapper{
+ overflow: hidden;
+ max-width: 1200px;
+	  margin: 0 auto;
+}
+
+.center {
+margin: 0 auto;
+}
+.header {
+
+
+&__list {
+padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+justify-content: center;
+}
+&__item {
+    display: inline-block;
+    border: 2px solid transparent;
+    margin-left: 30px;
+    
+}
+&__link {
+  padding: 10px 15px;
+display: inline-block;
+    text-decoration: none;
+}
+
+&__item:first-child {
+    margin-left:  0;
+}
+
+&__link:hover {
+    border: 1px solid white ;
+    border-radius: 35px;
+
+}
+
+&__logo-link {
+    text-decoration: none;
+}
+
+&__logo {
+    padding-top: 100px;
+    text-align: center;
+}
+
+&__logo-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+&__tittle {
+     padding-top: 45px;
+       
+}
+
+&__subtittle {
+    padding-top: 15px;
+}
+
+&__text {
+    font-size: 27px;
+    text-align: center;
+}
+
+&__btn {
+    
+    text-align: center;
+    padding-top: 15px;
+}
+
+&__button {
+  padding: 10px 60px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 15px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+
+&__button:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+}
+
+ .main {
+    padding-top: 15px;
+
+    &__title {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+   }
+   }
+
+
+   .partners {
+
+&__slogan {
+    padding-top: 20px;
+    text-align: center;
+   }
+
+&__title {
+    font-weight: bold;
+    font-size: 25px;
+
+   }
+
+&__gride {
+    
+    text-align: center;
+    padding-top: 20px;
+   }
+
+   &__info {
+    padding-top: 10px;
+}
+
+&__name {
+   font-size: 20px;
+   font-weight: bold;
+   
+   }
+
+   &__likes {
+   font-size: 20px;
+   padding-top: 10px;
+   }
+
+   &__btn {
+    padding-top: 30px;
+    padding-bottom: 0;
+   }
+
+   &__button {
+    background: white;
+    color: red;
+   } 
+
+   &__photo {
+ width: 125px;
+ height: 124px;
+}
+   }
+
+   .caption {
+padding-top: 30px;
+text-align: center;
+
+&__text {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+.search {
+    margin-top: 15px;
+    color: black;
+&__text {
+    font-size: 25px;
+    font-weight: bold;
+  }
+&__title {
+    padding-top: 15px;
+    text-align: center;
+  }
+&__form{
+     text-align: center;
+        margin: 20px 0; 
+    }
+
+    &__input {
+        width: 100%;
+        border: 1px solid grey;
+        height: 40px;
+        text-align: left;
+        padding-left: 2%;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+    }
+  }
+  .footer {
+    &__gride {
+    padding-top: 20px;
+   }
+   &__logo {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+   }
+   &__menu {
+padding-top: 10px;
+
+   }
+
+   &__head {
+    padding-top: 5px;
+text-align: center;
+   }
+
+   &__links {
+text-decoration: none;
+   }
+   &__item{
+    margin : 8px 40 px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   }
+   &__link {
+    text-decoration: none;
+    color: grey;
+   }
+   &__pic-slogan {
+   padding-top: 5px;
+    color: grey;
+    text-align: center;
+   }
+   &__img {
+    text-align: center;
+    margin: 5px 0;
+  
+   }
+   &__logotip {
+    width: 110px;
+    height: 24px;
+   }
+  }
